@@ -1,4 +1,4 @@
-# 项目-colab gemini总结
+# AI Agents/Agentic Workflow/大模型微调项目集合
 # 1.多轮对话 LangGraph Agent智能客服
 - 最新个人运行chatbot.ipynb
 - chatbot.ipynb
