@@ -10,6 +10,7 @@ Python/LangGraph/LangChain/langchain-openai/llangchaon-community/langchain-core/
 # 2.基于crewAI自动化写作应用实战
 
 - 2.基于CrewAI自动化写作应用实战.ipynb
+- 额度用完了，Azure配置有点问题，解决：https://github.com/gongfan1213/xiangmu/wiki/2.%E9%A1%B9%E7%9B%AE2AzureAPI.md
 
 Python/CrewAI/Azure OpenAi/Agent/Task/Crew
 
