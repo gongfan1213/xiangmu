@@ -15,3 +15,7 @@ Python/LangGraph/LangChain/langchain-openai/llangchaon-community/langchain-core/
 Python/CrewAI/Azure OpenAi/Agent/Task/Crew
 
 **核心功能** ：自动化写作系统，需要两个Agent，故事内容构思者和故事内容协作者，两个Task:产出故事内容构思、根据构思编写故事，Crew组合团队并且执行、kickoff运行任务
+# RAG
+
+https://github.com/FareedKhan-dev/all-rag-techniques#
+
