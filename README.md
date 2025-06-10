@@ -18,6 +18,13 @@ Python/CrewAI/Azure OpenAi/Agent/Task/Crew
 # RAG
 
 https://github.com/FareedKhan-dev/all-rag-techniques#
+# 3.最简单的RAG的极简实现
 - 3_simple_rag_副本 (1).ipynb（已经全部跑通的)
 - 3_simple_rag.ipynb
+
+# 4.基于百分位数法的语义分块
+- 4_语义分块(已经跑通的).ipynb
+- 4_semantic_chunking.ipynb
+
+
 
