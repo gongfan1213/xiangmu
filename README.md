@@ -18,4 +18,6 @@ Python/CrewAI/Azure OpenAi/Agent/Task/Crew
 # RAG
 
 https://github.com/FareedKhan-dev/all-rag-techniques#
+- 3_simple_rag_副本 (1).ipynb（已经全部跑通的)
+- 3_simple_rag.ipynb
 
