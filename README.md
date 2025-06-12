@@ -28,71 +28,105 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 
 
 # 可用模型一览表
-从提供的数据来看，这些模型的 `permission` 字段中，`allow_create_engine`、`allow_sampling`、`allow_logprobs` 和 `allow_view` 都被设置为 `true`，而 `allow_fine_tuning` 和 `allow_search_indices` 被设置为 `false`。这意味着这些模型可以用于生成文本、计算对数概率等任务，但不能进行微调和搜索索引操作。
+以下是按模型类型分类整理的可用模型列表（包含原始所有模型，无遗漏）：
 
-以下是这些模型中可以使用的模型列表（按 `owned_by` 分类）：
 
-### **由 `vertex-ai` 拥有的模型**
+### **1. Claude系列（Anthropic）**
 - `claude-3-5-sonnet-20240620`
 - `claude-3-5-sonnet-20241022`
 - `claude-3-7-sonnet-20250219`
 - `claude-opus-4-20250514`
 - `claude-sonnet-4-20250514`
-- `gemini-2.0-flash`
-- `gemini-2.5-pro-preview-03-25`
 
-### **由 `coze` 拥有的模型**
+
+### **2. DeepSeek系列**
 - `deepseek-r1`
+- `DeepSeek-R1-Distill-Qwen-32B`
+- `DeepSeek-R1-Distill-Qwen-7B`
 - `deepseek-v3`
 - `Pro-DeepSeek-R1`
 - `Pro-DeepSeek-V3`
-- `qwen-max`
 
-### **由 `custom` 拥有的模型**
-- `DeepSeek-R1-Distill-Qwen-32B`
-- `DeepSeek-R1-Distill-Qwen-7B`
-- `Doubao-1.5-vision-pro-32k`
-- `Doubao-lite-128k`
+
+### **3. Doubao系列（豆包模型）**
+- `Doubao-1.5-vision-pro-32k`（支持多模态）
+- `Doubao-embedding`（嵌入向量模型）
+- `Doubao-lite-128k`（长文本处理）
 - `Doubao-lite-32k`
-- `Doubao-pro-128k`
-- `Doubao-pro-32k`
-- `gemini-2.0-flash-lite`
-- `gemini-2.5-flash-preview-04-17`
-- `gemini-2.5-pro-preview-05-06`
-- `gpt-4.1`
-- `gpt-4.1-mini`
-- `gpt-4.1-nano`
-- `kimi-latest`
-- `kimi-thinking-preview`
-- `moonshot-small`
-- `moonshot-v1-128k-vision-preview`
-- `moonshot-v1-32k-vision-preview`
-- `moonshot-v1-8k-vision-preview`
-- `moonshot-v1-auto`
-- `o3`
-- `qwen2.5-72b-instruct`
-
-### **由 `volcengine` 拥有的模型**
-- `Doubao-embedding`
 - `Doubao-lite-4k`
+- `Doubao-pro-128k`（高性能版）
+- `Doubao-pro-32k`
 - `Doubao-pro-4k`
 
-### **由 `openai` 拥有的模型**
-- `gpt-4`
-- `gpt-4-32k`
-- `gpt-4-turbo`
-- `gpt-4o`
-- `gpt-4o-mini`
-- `o1`
-- `o1-mini`
-- `text-embedding-3-large`
-- `text-embedding-3-small`
-- `text-embedding-ada-002`
 
-### **由 `ali` 拥有的模型**
+### **4. Gemini系列（Google）**
+- `gemini-2.0-flash`
+- `gemini-2.0-flash-lite`
+- `gemini-2.5-flash-preview-04-17`（预览版）
+- `gemini-2.5-pro-preview-03-25`（预览版）
+- `gemini-2.5-pro-preview-05-06`（预览版）
+
+
+### **5. GPT系列（OpenAI）**
+- `gpt-3.5-turbo`（最常用的通用模型）
+- `gpt-4`（高性能版）
+- `gpt-4-32k`（超长上下文）
+- `gpt-4-turbo`（优化版）
+- `gpt-4.1`
+- `gpt-4.1-mini`（轻量版）
+- `gpt-4.1-nano`（超轻量版）
+- `gpt-4o`（优化版）
+- `gpt-4o-mini`（轻量优化版）
+
+
+### **6. Kimi系列（字节跳动）**
+- `kimi-latest`
+- `kimi-thinking-preview`（预览版）
+
+
+### **7. Moonshot系列（支持多模态）**
+- `moonshot-small`
+- `moonshot-v1-128k`（超长上下文）
+- `moonshot-v1-128k-vision-preview`（多模态预览版）
+- `moonshot-v1-32k`
+- `moonshot-v1-32k-vision-preview`（多模态预览版）
+- `moonshot-v1-8k`
+- `moonshot-v1-8k-vision-preview`（多模态预览版）
+- `moonshot-v1-auto`（自动优化版）
+
+
+### **8. O系列**
+- `o1`
+- `o1-mini`（轻量版）
+- `o3`
+- `o3-mini`（轻量版）
+
+
+### **9. Qwen系列（通义千问）**
+- `qwen-max`
 - `qwen-plus`
 - `qwen-turbo`
-- `qwen3-235b-a22b`
+- `qwen2.5-72b-instruct`（72B大模型）
+- `qwen3-14b`
+- `qwen3-235b-a22b`（235B超大模型）
+- `qwen3-30b-a3b`
+- `qwen3-32b`
+- `qwen3-8b`
 
-这些模型都可以用于生成文本、计算对数概率等任务，但不能进行微调。
+
+### **10. 嵌入向量模型（用于RAG检索）**
+- `text-embedding-3-large`（大尺寸嵌入）
+- `text-embedding-3-small`（小尺寸嵌入）
+- `text-embedding-ada-002`（OpenAI经典嵌入模型）
+
+
+### **注意事项**
+1. **预览版模型**：如`gemini-2.5-pro-preview`、`moonshot-v1-128k-vision-preview`等，可能存在功能限制或不稳定。
+2. **上下文长度**：部分模型（如`gpt-4-32k`、`Doubao-lite-128k`）支持超长上下文，适合处理长文本。
+3. **多模态支持**：如`Doubao-1.5-vision-pro-32k`、`moonshot-v1-128k-vision-preview`可处理图像等非文本内容。
+
+
+如果需要针对特定场景（如RAG检索、长文本处理、多模态）的模型推荐，可以进一步说明需求！
+
+
 
