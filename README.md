@@ -33,6 +33,10 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 - 5_chunk_size_selector_副本.ipynb
 - 5_chunk_size_selector.ipynb
 
+# 6_context_enriched_rag上下文增强检索调用
+- 6_context_enriched_rag_副本 (1).ipynb
+- 6_context_enriched_rag_副本.ipynb
+
 # 可用模型一览表
 以下是按模型类型分类整理的可用模型列表（包含原始所有模型，无遗漏）：
 
