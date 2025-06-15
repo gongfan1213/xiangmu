@@ -43,6 +43,9 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 # 8_doc_augmentation_rag_问题增强RAG
 - 8_doc_augmentation_rag_副本 (1).ipynb
 - 8_doc_augmentation_rag.ipynb
+# 9_query_transform三种查询转换方法
+- 9_query_transform_副本.ipynb
+- 9_query_transform.ipynb
 # 可用模型一览表
 以下是按模型类型分类整理的可用模型列表（包含原始所有模型，无遗漏）：
 
