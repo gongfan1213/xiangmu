@@ -49,6 +49,9 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 # 10_reranker_副本.ipynb基于LLM和keywords的重排序策略
 - 10_reranker_副本.ipynb
 - 10_reranker.ipynb
+# 11_rse变种最大子数组
+- 11_rse_副本.ipynb
+- 11_rse.ipynb
 # 可用模型一览表
 以下是按模型类型分类整理的可用模型列表（包含原始所有模型，无遗漏）：
 
