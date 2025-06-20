@@ -55,6 +55,10 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 # 12_contextual_compression三种上下文压缩summery/extract/selective
 - 12_contextual_compression_副本.ipynb
 - 12_contextual_compression.ipynb
+
+# 13_feedback_loop_rag基于反馈的主动进化的RAG
+- 13_feedback_loop_rag.ipynb
+- 13_feedback_loop_rag副本.ipynb
 # 可用模型一览表
 以下是按模型类型分类整理的可用模型列表（包含原始所有模型，无遗漏）：
 
