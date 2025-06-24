@@ -63,6 +63,14 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 对查询类型进行分类（事实型、分析型、观点型或上下文型）,选择合适的检索策略,执行专门的检索技术,生成定制化的回答
 - 14_adaptive_rag_副本 (1).ipynb
 - 14_adaptive_rag.ipynb
+# 15.Self-RAG自适应RAG
+
+检索必要性判断、文档相关性评估、回答依据评估、回答实用性评分
+
+-  15_self_rag.ipynb
+-  15_self_rag_副本.ipynb
+
+
 # HKBU 可用模型列表
 
 以下是HKBU GenAI Platform的可用模型列表及学生每月 token 额度整理：  
