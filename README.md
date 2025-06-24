@@ -73,6 +73,30 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 
 # HKBU 可用模型列表
 
+```
+import requests
+
+apiKey = "xxxxxx"
+basicUrl = "https://genai.hkbu.edu.hk/general/rest"
+modelName = "gpt-4-o-mini"
+apiVersion = "2024-05-01-preview"
+
+def submit(message):
+    conversation = [{"role": "user", "content": message}]
+    url = basicUrl + "/deployments/" + modelName + "/chat/completions/?api-version=" + apiVersion
+    headers = { 'Content-Type': 'application/json', 'api-key': apiKey }
+    payload = { 'messages': conversation }
+    response = requests.post(url, json=payload, headers=headers)
+
+    if response.status_code == 200:
+        data = response.json()
+        return data
+    else:
+        return 'Error:', response
+
+result = submit("Hello!")
+print(result)
+```
 以下是HKBU GenAI Platform的可用模型列表及学生每月 token 额度整理：  
 
 
