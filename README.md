@@ -72,6 +72,22 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 
 
 # HKBU 可用模型列表
+![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
+
+![image](https://github.com/user-attachments/assets/d0b8aa7c-e62e-484f-bd49-ba976383a214)
+
+### Command line - Curl
+Launch a terminal, command prompt, or powershell on your personal computer.
+
+
+Input the command given below
+
+```
+curl https://genai.hkbu.edu.hk/general/rest/deployments/gpt-4-o-mini/chat/completions?api-version=2024-05-01-preview \
+    -H "Content-Type: application/json" \
+    -H "api-key: <YOUR_API_KEY>" \
+    -d '{"messages":[{"role": "user", "content": "Hello!"}]}'
+```
 
 ```
 import requests
