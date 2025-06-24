@@ -70,7 +70,15 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 -  15_self_rag.ipynb
 -  15_self_rag_副本.ipynb
 
+# 16-Langgraph-basiclanggraph基础
 
+幻觉判断，人机交互，条件边
+
+原先:
+https://github.com/langchain-ai/langgraph-101?utm_source=chatgpt.com
+
+- 16langgraph_basics.ipynb
+- 16_langgraph_basics副本.ipynb
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
