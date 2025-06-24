@@ -59,7 +59,10 @@ https://github.com/FareedKhan-dev/all-rag-techniques#
 # 13_feedback_loop_rag基于反馈的主动进化的RAG
 - 13_feedback_loop_rag.ipynb
 - 13_feedback_loop_rag副本.ipynb
-
+# 14_adaptive_rag_增强型RAG系统的自适应检索
+对查询类型进行分类（事实型、分析型、观点型或上下文型）,选择合适的检索策略,执行专门的检索技术,生成定制化的回答
+- 14_adaptive_rag_副本 (1).ipynb
+- 14_adaptive_rag.ipynb
 # HKBU 可用模型列表
 
 以下是HKBU GenAI Platform的可用模型列表及学生每月 token 额度整理：  
