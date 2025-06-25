@@ -80,7 +80,8 @@ https://github.com/langchain-ai/langgraph-101?utm_source=chatgpt.com
 - 16langgraph_basics.ipynb
 - 16_langgraph_basics副本.ipynb
 
-# 17-命名分块proposition_chunking
+# 17-命名分块（超级慢32分钟都没完)proposition_chunking
+不能用o1
 - 17_proposition_chunking_副本.ipynb
 - 17_proposition_chunking.ipynb
 
