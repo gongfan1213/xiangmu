@@ -79,6 +79,11 @@ https://github.com/langchain-ai/langgraph-101?utm_source=chatgpt.com
 
 - 16langgraph_basics.ipynb
 - 16_langgraph_basics副本.ipynb
+
+# 17-命名分块proposition_chunking
+- 17_proposition_chunking_副本.ipynb
+- 17_proposition_chunking.ipynb
+
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
