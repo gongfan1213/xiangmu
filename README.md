@@ -82,9 +82,22 @@ https://github.com/langchain-ai/langgraph-101?utm_source=chatgpt.com
 
 # 17-命名分块（超级慢32分钟都没完)proposition_chunking
 不能用o1
+
+用gpt4o- mini的结果:
+
+https://github.com/gongfan1213/lianxi/tree/main/RAG/%E5%91%BD%E5%90%8D%E5%88%86%E5%9D%97
+
 - 17_proposition_chunking_副本.ipynb
 - 17_proposition_chunking.ipynb
 
+# 18-多模态RAG_multimodel_rag
+
+实现对图像的知识，豆包
+
+Doubao-1.5-vision-pro-32k
+
+- 18_multimodel_rag副本.ipynb
+- 18_multimodel_rag.ipynb
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
