@@ -92,12 +92,17 @@ https://github.com/gongfan1213/lianxi/tree/main/RAG/%E5%91%BD%E5%90%8D%E5%88%86%
 
 # 18-多模态RAG_multimodel_rag
 
-实现对图像的知识，豆包
+实现对图像的提取，豆包
 
 Doubao-1.5-vision-pro-32k
 
 - 18_multimodel_rag副本.ipynb
 - 18_multimodel_rag.ipynb
+# 19_fusion_rag融合检索
+BM25关键词检索和向量检索结合
+
+- 19_fusion_rag_副本.ipynb
+- 19_fusion_rag.ipynb
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
