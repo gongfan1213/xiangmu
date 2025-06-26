@@ -103,6 +103,14 @@ BM25关键词检索和向量检索结合
 
 - 19_fusion_rag_副本.ipynb
 - 19_fusion_rag.ipynb
+
+# 20_graph_rag_图结构RAG
+- 20_graph_rag_副本.ipynb
+- 20_graph_rag.ipynb
+# 21-分层RAG hierarch_rag
+- 21_hierarchy_rag.ipynb
+- 21_hierarchy_rag_副本.ipynb
+  
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
