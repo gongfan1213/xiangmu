@@ -114,6 +114,9 @@ BM25关键词检索和向量检索结合
 # 22_HyDE_rag_假设理论RAG
 - 22_HyDE_rag_副本.ipynb
 - 22_HyDE_rag.ipynb
+# 23_网络混合检索RAG
+- 23_crag_副本.ipynb
+- 23_crag.ipynb
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
