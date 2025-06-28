@@ -117,6 +117,10 @@ BM25关键词检索和向量检索结合
 # 23_网络混合检索RAG
 - 23_crag_副本.ipynb
 - 23_crag.ipynb
+
+# 24_rag_with_rl基于强化学习的rag
+- 24_rag_with_rl.ipynb
+- 24_rag_with_rl_副本.ipynb
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
