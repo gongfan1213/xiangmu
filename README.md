@@ -121,6 +121,9 @@ BM25关键词检索和向量检索结合
 # 24_rag_with_rl基于强化学习的rag
 - 24_rag_with_rl.ipynb
 - 24_rag_with_rl_副本.ipynb
+
+# 25_function_call
+- 训练一个工具调用模型
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
