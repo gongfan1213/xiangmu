@@ -166,6 +166,92 @@ def submit(message):
 result = submit("Hello!")
 print(result)
 ```
+
+如果你在 OpenRouter 上寻找 **完全免费的、适合构建 Agent 应用的模型**，以下这些都是 Reddit 社区推荐的优质选项，适合支持工具调用、任务规划、对话管理等 agent 功能：
+
+---
+
+## 🚀 免费且适合 Agent 开发的 OpenRouter 模型推荐
+
+### **1. DeepSeek‑R1 Zero（DeepSeek R1）**
+
+* 是 OpenRouter 提供的**免费模型**，特别适合具备推理和任务支持功能的 Agent 使用（如 function‑call、工具调用）([apidog][1])。
+* Reddit 用户提到：“Deepseek‑R1 ... good when using atomic agents”；也容易集成到 Agent 框架中([Reddit][2])。
+
+### **2. Meta Llama 3.3 70B Instruct**
+
+* 支持高达 **100,000 token 的上下文**，适合复杂、长对话任务；目前以 `:free` 标记提供([Reddit][3])。
+* Reddit 用户称其为“you can use them in ST without paying”，适合构建大型对话型 agent([Reddit][3])。
+
+### **3. Google Gemini 系列（Gemini Flash / Gemini 2.0 Flash Thinking Experimental）**
+
+* OpenRouter 上提供的**Experimental 免费版本**支持较高吞吐量和大上下文，可以构建高响应速度的 agent([Reddit][3])。
+* 免费额度有限，但适合测试与轻量代理开发。
+
+### **4. Qwen‑2 7B Instruct（\:free）**
+
+* 小体量但支持指令式对话，适合轻量 agent、multimodal 或任务型场景([GitHub][4], [apidog][1])。
+* 配合工具（如图像输入）可用于边缘部署任务。
+
+### **5. Mistral 系列 free 模型（如 Mistral Small / Devstral Small）**
+
+* 官方 `select-openrouter-model` 脚本中列出了多个免费 Mistral 小模型（24B / 7B），适合技术性任务或快速推理 agent([SPR][5])。
+
+---
+
+## 🛠 适配 Agent 开发的方案推荐
+
+### ✅ Agent 框架与模型适配
+
+* 可以结合 **LiteLLM + OpenRouter** 构建 agent，支持灵活切换不同模型（DeepSeek，Llama，Gemini 等）([Medium][6])。
+* 社区流行的 Agent 框架如 **AutoGen**、**AgentLite**、**ModelScope‑Agent** 等，均可直接将上述模型作为底层 LLM 接入，进行任务规划、工具调用、多 agent 协同等开发([arXiv][7])。
+
+---
+
+## 🧪 社区真实反馈
+
+* Reddit 用户提到 Free 模型 DeepSeek‑R1 在 Agent 场景中效果良好：“Deepseek‑R1 ... good when using atomic agents”，并容易通过 OpenRouter API 调用([Reddit][2])。
+* 对 Llama 3.3 70B 的体验评价：“free offering”、上下文支持极大，适合 RP 和复杂场景优化([Reddit][3])。
+* 也有用户表示：Gemini Flash Free、DeepSeek Chat Free 是使用体验较为稳定的免费模型，适合初期 agent 测试与开发([Reddit][8], [Reddit][3])。
+
+---
+
+## 📋 总结推荐表
+
+| 模型（OpenRouter ID）                      | 免费标志   | 特点                           | 适合场景                  |
+| -------------------------------------- | ------ | ---------------------------- | --------------------- |
+| DeepSeek‑R1 Zero (*:free*)             | ✅ 免费   | 推理能力强，适合 function-call agent | 多 agent、复杂推理、工具调用     |
+| meta-llama/llama-3.3-70b-instruct      | ✅ Free | 超长上下文支持（100k tokens）         | 长对话、RP、任务规划 agent     |
+| google/gemini‑2.0‑flash‑*Experimental* | ✅ Free | 高吞吐、大 context、响应快            | 快速响应 agent，探索 GPT 型场景 |
+| qwen/qwen‑2‑7b‑instruct:free           | ✅ Free | 小型模组，轻量指令处理能力                | 边缘部署、多模态、小 agent      |
+| mistralai/mistral-small‑*:free*        | ✅ Free | 技术优化模型，性能适中                  | 技术文档生成、轻推理 agent      |
+
+---
+
+## 📌 如何开始使用？
+
+1. 注册 [OpenRouter](https://openrouter.ai)，生成 API key（无需绑定信用卡使用 `:free` 模型）([Reddit][9], [arXiv][7], [Reddit][3], [GitHub][10], [Reddit][11], [SPR][5])。
+
+
+   ([Reddit][11], [arXiv][12], [Reddit][8])。
+
+---
+
+如果你需要具体示例代码，或希望推荐如何配置 agent 来实现具体任务（如 function-calling、工具集成等），我也可以进一步帮你整理！
+
+[1]: https://apidog.com/blog/free-ai-models/?utm_source=chatgpt.com "Best Free AI Models You Can Use on OpenRouter"
+[2]: https://www.reddit.com/r/LangChain/comments/1icqkvm?utm_source=chatgpt.com "Best open source models to build complex agents alternative to gpt4o/Claude:"
+[3]: https://www.reddit.com/r/SillyTavernAI/comments/1ixxeh2?utm_source=chatgpt.com "PSA: You can use some 70B models like Llama 3.3 with >100000 token context for free on Openrouter"
+[4]: https://github.com/OpenRouterTeam/ai-sdk-provider?utm_source=chatgpt.com "GitHub - OpenRouterTeam/ai-sdk-provider: The OpenRouter provider for the Vercel AI SDK contains support for hundreds of AI models through the OpenRouter chat and completion APIs."
+[5]: https://spr.com/free-local-ai-agents-with-openrouter-ollama-and-crewai/?utm_source=chatgpt.com "Creating Free, Local AI Agents with OpenRouter, Ollama, and CrewAI - SPR"
+[6]: https://medium.com/%40KumarPradosh/power-up-your-ai-agents-unlocking-a-universe-of-models-with-litellm-and-openrouter-7c25262cbbe9?utm_source=chatgpt.com "Power Up Your AI Agents: Unlocking a Universe of Models with LiteLLM and OpenRouter | by Pradosh Kumar | Jun, 2025 | Medium"
+[7]: https://arxiv.org/abs/2308.08155?utm_source=chatgpt.com "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+[8]: https://www.reddit.com/r/Chub_AI/comments/1j08vfl?utm_source=chatgpt.com "What's the actual best free model, API and configuration/preset?"
+[9]: https://www.reddit.com/r/Chub_AI/comments/1dmqvpa?utm_source=chatgpt.com "Any good presets for Openrouter? Specifically nous-capybara 7B:free"
+[10]: https://github.com/wheattoast11/openrouter-deep-research-mcp?utm_source=chatgpt.com "GitHub - wheattoast11/openrouter-deep-research-mcp: MCP Server that orchestrates research with Claude and Perplexity/GPT/Gemini automatically"
+[11]: https://www.reddit.com/r/SillyTavernAI/comments/1fzk3uj?utm_source=chatgpt.com "Is openrouter free to use ?"
+[12]: https://arxiv.org/abs/2402.15538?utm_source=chatgpt.com "AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System"
+
 以下是HKBU GenAI Platform的可用模型列表及学生每月 token 额度整理：  
 
 
