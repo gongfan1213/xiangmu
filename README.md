@@ -124,6 +124,22 @@ BM25关键词检索和向量检索结合
 
 # 25_function_call
 - 训练一个工具调用模型
+# 26_微调项目-Deepseed
+- 使用 DeepSpeed 框架进行大规模模型训练的完整示例和配置
+```
+deepspeed/
+├── README.md                    # 安装和配置指南
+├── train_on_one_gpu.sh         # 单GPU训练脚本
+├── train_on_multi_nodes.sh     # 多节点分布式训练脚本
+├── config/                     # DeepSpeed配置文件
+│   ├── ds_config_zero2.json    # ZeRO-2优化配置
+│   └── ds_config_zero3.json    # ZeRO-3优化配置
+└── translation/                # 翻译任务示例
+    ├── run_translation.py      # 翻译训练脚本
+    ├── requirements.txt        # 依赖包列表
+    └── README.md              # 翻译任务说明
+```
+
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
