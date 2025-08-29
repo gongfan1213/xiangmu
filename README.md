@@ -139,7 +139,15 @@ deepspeed/
     ├── requirements.txt        # 依赖包列表
     └── README.md              # 翻译任务说明
 ```
+# 27-量化
 
+- `bits_and_bytes.ipynb`：演示使用 bitsandbytes（bnb）进行 8bit/4bit 推理量化（不改权重，侧重加载/显存优化）。
+- `AWQ-opt-125m.ipynb`：在小模型上跑通 AWQ 权重量化的最小可复现流程（W4A16 常见），便于理解全流程。
+- `AWQ_opt-2.7b.ipynb`：在更大 OPT-2.7B 上执行 AWQ，覆盖校准、量化、保存、评测与推理。
+- `AutoGPTQ_opt-2.7b.ipynb`：使用 AutoGPTQ 对 OPT-2.7B 做 GPTQ 权重量化的端到端流程（超详细，含多种配置与评测，体量最大）。
+- `docs/images/qlora.png`：QLoRA 相关概念图（用于理解 LoRA+NF4 的训练型量化思路，对上面几份“推理/离线权重量化”起到对比说明）。
+
+  
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
 
