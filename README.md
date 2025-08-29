@@ -147,6 +147,7 @@ deepspeed/
 - `AutoGPTQ_opt-2.7b.ipynb`：使用 AutoGPTQ 对 OPT-2.7B 做 GPTQ 权重量化的端到端流程（超详细，含多种配置与评测，体量最大）。
 - `docs/images/qlora.png`：QLoRA 相关概念图（用于理解 LoRA+NF4 的训练型量化思路，对上面几份“推理/离线权重量化”起到对比说明）。
 
+# 28- 微调llama
   
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
