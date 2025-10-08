@@ -153,7 +153,10 @@ deepspeed/
 - pipeline
 - trasnformer
   
-# 30-
+# 30-grpo微调医学大模型
+
+https://community.cloudera.com/t5/Community-Articles/A-Practical-Guide-to-Fine-Tuning-Language-Models-with-GRPO/ta-p/411583?utm_source=chatgpt.com
+
   
 # HKBU 可用模型列表
 ![image](https://github.com/user-attachments/assets/a33a1360-e981-40ce-93e0-2e79bf237bc7)
